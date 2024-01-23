@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav li{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.logo{
+    font-size: 30px;
+}
+.btn{
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: #FF4240;
+    color: white;
+    border: 2px solid tomato;
+}
+.pic{
+    margin-right: 20px;
+}
+.carousel-item img{
+    height: 70vh;
+}
+.text{
+    width: 500px;
+    border: 1px solid black;
+    background-color: black;
+    position: relative;
+    bottom: 100px
+   
+    
+}
+.taitle{
+    color: red;
+}
+.desc{
+    color: white;
+}
+
+
+
+/****************** ENd******************* */
+.Professional{
+    background: rgba(253, 221, 95, 0.10);
+    
+}
+.Professional .round{
+    margin-top: 50px;
+}
+.round img{
+    width: 100px;
+   /* margin-left: 50px; */
+}
+.Professional .round{
+    padding: 10px;
+    text-align: center;
+}
+.Professional .round h5, p{
+    margin-top: 10px;
+}
+.round{
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.034);
+}
+/************ End ***************/
+.Program{
+    background: rgba(98, 156, 243, 0.10);
+}
+
+.Program .row img{
+    width: 100%;
+    padding: 10px;
+}
+.Program .bannar{
+    background-image: linear-gradient(to top, rgba(9, 17, 1, 0.653) 50%, rgba(9, 17, 1, 0.653) 50%), url(../Images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 10px;
+}
+.bannar .text-col{
+    padding-left: 20px;
+    padding-top: 90px;
+    color: white;
+
+}
+.bannar p{
+    padding-left: 20px;
+    color: white;
+}
+.bannar .btn{
+    margin-left: 20px;
+}
+.bannar1{
+    margin-top: 10px;
+    background-image: linear-gradient(to top, rgba(9, 17, 1, 0.653) 50%, rgba(9, 17, 1, 0.653) 50%), url(../Images/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    border-radius: 10px;
+}
+.bannar1 .text-col{
+    padding-left: 20px;
+    padding-top: 90px;
+    color: white;
+}
+.bannar1 p{
+    padding-left: 20px;
+    color: white;
+}
+.bannar1 .btn{
+    margin-left: 20px;
+}
+.text-banner{
+    margin-top: 50px;
+    
+    background-image: linear-gradient(to top, rgba(9, 17, 1, 0.653) 50%, rgba(9, 17, 1, 0.653) 50%), url(../Images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    border-radius: 10px;
+}
+.text-banner .text-col{
+    padding-left: 20px;
+    padding-top: 150px;
+    color: white;
+}
+.text-banner p{
+    padding-left: 20px;
+    color: white;
+}
+.text-banner .btn{
+    margin-left: 20px;
+}
+/* end **************/
+.Products{
+    background: rgba(188, 237, 109, 0.10);
+}
+.protac{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.208);
+    box-shadow: 3px;
+}
+.text11 h3{
+    margin-top: 20px;
+}
+.text11 h5{
+    color: red;
+}
+/* ********************** */
+.Touch{
+    margin-top: 50px;
+}
+.Touch .call{
+    border-radius: 16px;
+    background: rgba(188, 237, 109, 0.10);
+    border: 1px solid rgba(0, 0, 0, 0.046);
+}
+
+.call{
+    height: 30vh;
+    padding: 30px;
+}
+.call img{
+    margin-top: 20px;
+}
+.email{
+    margin-top: 20px;
+    border-radius: 16px;
+    background: rgba(253, 221, 95, 0.10);
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    height: 30vh;
+    padding: 30px;
+}
+.map{
+    margin-top: 20px;
+    border-radius: 16px;
+    background: rgba(98, 156, 243, 0.10);
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    height: 30vh;
+    padding: 30px;
+}
+.Touch .icon-text{
+   padding: 15px;
+}
+/* ********************* */
+.form{
+    /* border: 1px solid black; */
+    height: 95vh;
+    padding: 30px;
+    background-color: rgba(255, 228, 196, 0.139);
+    box-shadow: 2px 2px 2px 2px;
+
+}
+.form .btn{
+    width: 100%;
+}
+/* ***************************** */
+
+.socal{
+    margin-top: 50px;
+}
+.socal .text-center{
+    min-height: 100px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.03);
+    padding: 30px;
+}
+.socal .text-center h5{
+    /* padding: 30px; */
+    margin-top: 50px;
+}
+.socal .text-center .icon11{
+    font-size: 30px;
+    padding: 20px;
+}
+/* ****************************** */
+.footer {
+    width: 100%;
+    min-height: 350px;
+    background: black;
+    border: 1px solid black;
+    padding: 80px;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer .text12{
+    color: white;
+    padding: 20px;
+}
+.footer .text13{
+    color: white;
+    padding: 20px;
+    padding-bottom: 20px;
+}
